@@ -1,0 +1,16 @@
+[
+{
+  "modid": "waterprocessing",
+  "name": "Water Processing",
+  "description": "Clear and Purify water to get resources.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["jcoud"],
+  "credits": "T",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
