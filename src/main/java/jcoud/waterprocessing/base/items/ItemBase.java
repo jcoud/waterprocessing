@@ -1,7 +1,6 @@
-package jcoud.waterprocessing.base;
+package jcoud.waterprocessing.base.items;
 
 import jcoud.waterprocessing.WaterProcessing_main;
-import jcoud.waterprocessing.base.items.item_test;
 import jcoud.waterprocessing.utils.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -12,7 +11,7 @@ public class ItemBase extends Item implements IHasModel {
         setRegistryName(name);
         setCreativeTab(CreativeTabs.MISC);
 
-        item_test.ITEMS.add(this);
+        items_list.ITEMS.add(this);
     }
     @Override
     public void registerModels() {
